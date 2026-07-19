@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int swappingnumbers(double &a,double &b){
+  a=a+b;    
+  b=a-b;
+  a=a-b;
+ return a;
+}
+int main() {
+  double a,b;
+  cout<<"Insert Number one = ";
+  cin>>a;
+  cout<<"Insert Number two = ";
+  cin>>b;
+int result=swappingnumbers(a,b);
+  cout<<"Swap Number one = "<<a<<endl;
+  cout<<"Swap Number two = "<<b;
+ return 0;
+}
