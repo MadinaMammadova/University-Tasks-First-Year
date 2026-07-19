@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+#define _USE_MATH_DEFINES
+using namespace std;
+int main() {
+    double R,C,S;
+    cout<<"Insert Radius = ";
+    cin>>R;
+    C=2*M_PI*R;
+    S=M_PI*pow(R,2);
+    cout<<"Circumference = "<<C<<endl;
+    cout<<"Area = "<<S;
+    return 0;
+}
