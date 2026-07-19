@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int converttobinary(int n,int &k){
+ string s="";
+while (n>0) {
+  k=n%2;
+  s=to_string(k)+s;  
+  n=n/2;
+}
+  cout<<"Binary = "<<s<<endl;
+ return 0;
+}
+int main() {
+ int n,k;
+ cout<<"Insert Number = ";
+ cin>>n;
+int result=converttobinary(n,k);
+  return 0;
+}
