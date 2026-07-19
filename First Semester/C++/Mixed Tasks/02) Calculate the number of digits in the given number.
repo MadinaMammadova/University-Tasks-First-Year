@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n,m=0;
+    cout<<"Insert Number = ";
+    cin>>n;
+while(n>0){
+    m=m+1;
+    n=n/10;
+}
+    cout<<"The Number of Digits = "<<m;
+  return 0;
+}
