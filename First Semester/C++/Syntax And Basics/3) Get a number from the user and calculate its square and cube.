@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    double a,b,c;
+    cout<<"Insert Number = ";
+    cin>>a;
+    b=pow(a,2);
+    c=pow(a,3);
+    cout<<"Square = "<<b<<endl;
+    cout<<"Cube = "<<c;
+    return 0;
+}
