@@ -1,0 +1,15 @@
+import random
+number=random.randint(1,100)
+attempts=0
+print("User's Guessess =",end=" ")
+usersguess=int(input())
+while usersguess!=number:
+  usersguess=int(input())
+  if usersguess>number:
+    print("Lower")
+    attempts=attempts+1
+  if usersguess<number:
+    print("Higher")
+    attempts=attempts+1
+print("Your guess is correct!")
+print("Attempts =",attempts)
