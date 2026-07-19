@@ -1,0 +1,9 @@
+print("Age =",end=" ")
+age=int(input())
+print("Price =",end=" ")
+if age>=18:
+    print("15$")
+elif 13<=age<=17:
+    print("10$")
+else:
+    print("7$")
