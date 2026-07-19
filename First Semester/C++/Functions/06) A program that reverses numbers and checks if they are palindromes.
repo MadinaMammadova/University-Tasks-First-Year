@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int palindromeornot(int n,int &k,int&s) {
+ s=0;
+int a=n;
+while(n>0){
+  k=n%10;
+  s=s*10+k;
+  n=n/10;
+}
+if(s==a){
+  cout<<"Number is Palindrome";
+}
+else
+  cout<<"Number is not Palindrome";
+ return s;
+}
+int main() {
+  int n,k,s;
+  cout<<"Insert Number = ";
+  cin>>n;
+int result=palindromeornot(n,k,s);
+ return 0;
+}
