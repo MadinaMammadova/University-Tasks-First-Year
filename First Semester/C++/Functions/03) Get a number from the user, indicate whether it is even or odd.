@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int evenorodd(int &m){
+ if (m%2==0){
+  cout<<"Number is Even";
+}
+else
+  cout<<"Number is Odd";
+ return m;
+}
+int main() {
+  int m;
+  cout<<"Insert Number = ";
+  cin>>m;
+int result=evenorodd(m);
+ return 0;
+}
