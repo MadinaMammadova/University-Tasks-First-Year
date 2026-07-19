@@ -1,0 +1,6 @@
+print("Random Year =",end=" ")
+currentyear=int(input())
+if currentyear%4==0 & currentyear%400==0:
+    print("The Year is a Leap Year")
+else:
+    print("The Year is not a Leap Year")
