@@ -1,0 +1,21 @@
+#include <iostream>
+int main() {
+    using namespace std;
+    double Points;
+    cout<<"Exam Score = ";
+    cin>>Points;
+if (Points>=0 & Points<=50){
+    cout<<"Grade = "<<"F";
+}
+else if(Points>=51 & Points<=60)
+     cout<<"Grade = "<<"E";
+else if(Points>=61 & Points<=70)
+     cout<<"Grade = "<<"D";
+else if(Points>=71 & Points<=80)
+     cout<<"Grade = "<<"C";
+else if(Points>=81 & Points<=90)
+     cout<<"Grade = "<<"B";
+else
+     cout<<"Grade = "<<"A";
+return 0;
+}
