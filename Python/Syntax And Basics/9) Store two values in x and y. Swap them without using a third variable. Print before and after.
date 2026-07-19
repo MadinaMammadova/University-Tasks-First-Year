@@ -1,0 +1,8 @@
+print("Variable One =", end=" ")
+variableone=int(input())
+print("Variable Two =", end=" ")
+variabletwo=int(input())
+variableone=variableone+variabletwo
+variabletwo=variableone-variabletwo
+variableone=variableone-variabletwo
+print("Swapped One = ",variableone,"\n","Swapped Two =",variabletwo)
