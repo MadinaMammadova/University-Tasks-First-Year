@@ -1,0 +1,6 @@
+print("Score =", end=" ")
+score=float(input())
+if score>=60:
+    print("Passed")
+else:
+    print("Failed")
