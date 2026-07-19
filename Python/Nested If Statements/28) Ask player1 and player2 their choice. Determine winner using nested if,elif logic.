@@ -1,0 +1,26 @@
+print("Player One's Choice =",end=" ")
+playerone=input()
+print("Player Two's Choice =",end=" ")
+playertwo=input()
+print("Winner =",end=" ")
+if playerone=="Scissors":
+    if playertwo=="Rock":
+        print("Player Two")
+    elif playertwo=="Paper":
+        print("Player One")
+    else:
+        print("It is a tie")
+elif playerone=="Paper":
+    if playertwo=="Rock":
+        print("Player One")
+    elif playertwo=="Scisors":
+        print("Player Two")
+    else:
+        print("It is a tie")
+elif playerone=="Rock":
+    if playertwo=="Scisors":
+        print("Player One")
+    elif playertwo=="Paper":
+        print("Player Two")
+    else:
+        print("It is a tie")
