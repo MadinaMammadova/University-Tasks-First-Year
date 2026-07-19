@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int perfectnumberornot(int i, int &s,int &n){
+  i=1,s=0;
+for(i;i<n;i++) {
+  if(n%i==0) {
+    s=s+i;
+}
+}
+if(s==n) {
+  cout<<"Number is Perfect";
+}
+else
+  cout<<"Number is not Perfect";
+ return s;
+}
+int main() {
+  int i,s,n;
+  cout<<"Insert Number = ";
+  cin>>n;
+int result=perfectnumberornot(i,s,n);
+  return 0;
+}
