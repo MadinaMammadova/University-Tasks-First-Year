@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int i,N,m,s=0;
+    cout<<"Insert Number = ";
+    cin>>N;
+for(i;i<N;i++){
+        cin>>m;
+        s=s+m;
+}
+   cout<<"Sum = "<<s;
+  return 0;
