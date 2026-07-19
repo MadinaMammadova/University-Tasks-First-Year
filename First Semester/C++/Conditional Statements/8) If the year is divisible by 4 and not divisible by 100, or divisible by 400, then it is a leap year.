@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int Year;
+    cout<<"Insert Year = ";
+    cin>>Year;
+if(Year%4==0 | Year %400==0){
+    cout<<"Year is Leap Year";
+} 
+else
+    cout<<"Year is not Leap Year";
+  return 0;
+}
