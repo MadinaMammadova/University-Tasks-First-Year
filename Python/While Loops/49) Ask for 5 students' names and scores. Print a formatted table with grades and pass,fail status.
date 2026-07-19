@@ -1,0 +1,40 @@
+print("First Student's name =",end=" ")
+student1=input()
+print("First Student's score =",end=" ")
+score1=float(input())
+print("\nSecond Student's name =",end=" ")
+student2=input()
+print("Second Student's score =",end=" ")
+score2=float(input())
+print("\nThird Student's name =",end=" ")
+student3=input()
+print("Third Student's score =",end=" ")
+score3=float(input())
+print("\nFourth Student's name =",end=" ")
+student4=input()
+print("Fourth Student's score =",end=" ")
+score4=float(input())
+print("\nFifth Student's name =",end=" ")
+student5=input()
+print("Fifth Student's score =",end=" ")
+score5=float(input())
+if score1<51:
+    print(student1,"|","Failed")
+else:
+    print(student1,"|","Passed")
+if score2<51:
+    print(student2,"|","Failed")
+else:
+    print(student2,"|","Passed")
+if score3<51:
+    print(student3,"|","Failed")
+else:
+    print(student3,"|","Passed")
+if score4<51:
+    print(student4,"|","Failed")
+else:
+    print(student4,"|","Passed")
+if score5<51:
+    print(student5,"|","Failed")
+else:
+    print(student5,"|","Passed")
