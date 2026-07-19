@@ -1,0 +1,4 @@
+print("Celcius Degree =",end=" ")
+celciusdegree=float(input())
+fahrenheit=(celciusdegree*(9/5))+32
+print("Fahrenheit =",fahrenheit)
