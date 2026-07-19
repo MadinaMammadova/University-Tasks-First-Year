@@ -1,0 +1,19 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+int main() {
+    int i=1,n,k,m;
+    cout<<"Insert Numbers = ";
+    cin>>m;
+    cin>>n;
+    k=m;
+for(i;i<=n;i++){
+    cin>>m;
+    if(m==0){
+      break;
+}
+k=max(k,m);
+}
+    cout<<"Maximum Number = "<<k;
+  return 0;
+}
