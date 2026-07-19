@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n,s,m,k;
+for(int i=1;i<=1000;i++) {
+    n=i;
+    s=0;
+    m=n;
+while(m>0) {
+   k=m%10;
+   s=s*10+k;
+   m=m/10;
+}
+if(n==s) {
+   cout<<n<<" ";
+}
+}
+  return 0;
+}
