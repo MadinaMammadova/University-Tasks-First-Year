@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double a,b,c,d,f;
+    cout<<"Insert Number one = ";
+    cin>>a;
+    cout<<"Insert Number two = ";
+    cin>>b;
+    cout<<"Insert Number three = ";
+    cin>>c;
+    d=a+b+c;
+    f=d/3;
+    cout<<"Average = "<<f;
+    return 0;
+}
