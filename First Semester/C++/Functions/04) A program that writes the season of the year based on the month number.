@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int choosingseasons(int &MonthNumber) {
+ switch(MonthNumber){
+  case 1:
+  case 2:
+  case 12:
+  cout<<"Season = Winter";
+ break;
+  case 3:
+  case 4:
+  case 5:
+  cout<<"Season = Spring";
+ break;
+  case 6:
+  case 7:
+  case 8:
+  cout<<"Season = Summer";
+ break;
+  case 9:
+  case 10:
+  case 11:
+  cout<<"Season = Fall";
+ break;
+}
+ return MonthNumber;
+}
+int main() {
+ int MonthNumber;
+  cout<<"Insert the Month Number = ";
+  cin>>MonthNumber;
+ int result=choosingseasons(MonthNumber);
+  return 0;
+}
