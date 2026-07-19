@@ -1,0 +1,11 @@
+print("Income =",end=" ")
+income=float(input())
+print("Credit Score =",end=" ")
+creditscore=float(input())
+if income>50000:
+  if creditscore>700:
+     print("Loan Approved")
+  else:
+     print("Denied")
+else:
+    print("Denied")
