@@ -1,0 +1,8 @@
+print("Temperature =",end=" ")
+temperature=float(input())
+if temperature>30:
+  print("Turn on the AC")
+if 20<=temperature<=30:
+    print("Comfortable")
+else:
+    print("Turn on the Heater")
