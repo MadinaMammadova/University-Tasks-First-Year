@@ -1,0 +1,32 @@
+import random
+balance = 1000
+print("Balance =", balance)
+print("\n1.Deposit  \n2.Withdraw  \n3.Check Balance  \n4.Quit")
+print("Choice =", end=" ")
+choice = int(input())
+while choice != 4:
+  if choice == 1:
+    print("Amount =", end=" ")
+    amount = float(input())
+    if amount <= 0:
+        print("Invalid amount")
+    else:
+        balance = balance + amount
+        print("New Balance =", balance)
+  if choice == 2:
+    print("Amount =", end=" ")
+    amount = float(input())
+    if amount <= 0:
+      print("Invalid amount")
+    elif amount > balance:
+        print("Insufficient funds")
+    else:
+        balance = balance - amount
+        print("New Balance =", balance)
+
+  if choice == 3:
+    print("Balance =", balance)
+    print("\n1.Deposit  2.Withdraw  3.Check Balance  4.Quit")
+    print("Choice =", end=" ")
+    choice = int(input())
+print("Final Balance =", balance)
