@@ -1,0 +1,12 @@
+print("First Side =",end=" ")
+firstside=float(input())
+print("Second Side =",end=" ")
+secondside=float(input())
+print("Third Side =",end=" ")
+thirdside=float(input())
+if firstside+secondside>thirdside:
+  if firstside+thirdside>secondside:
+    if secondside+thirdside>firstside:
+      print("Possible to make a Triangle")
+else:
+    print("Impossible to make a Triangle")
