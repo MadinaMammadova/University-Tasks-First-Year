@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a;
+    cout<<"Salary = ";
+    cin>>a;
+if (a>=2000){
+    a=a-(a*20)/100;
+    cout<<"Taxes = 20%"<<endl;
+}
+else {
+    a=a-(a*10)/100;
+    cout<<"Taxes = 10%"<<endl;
+}
+  cout<<"Salary With Taxes = "<<a;
+  return 0;
+}
