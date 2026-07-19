@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double m,n,p;
+    cout<<"Insert Number one = ";
+    cin>>m;
+    cout<<"Insert Number two = ";
+    cin>>n;
+    cout<<"Insert Number three = ";
+    cin>>p;
+if (m>n){
+    if(m>p){
+        cout<<"Maximum Number = "<<m;
+}
+    else
+        cout<<"Maximum Number = "<<p;
+}
+else if(n>p)
+     cout<<"Maximum Number = "<<n;
+else
+     cout<<"Maximum Number = "<<p;
+return 0;
+}
