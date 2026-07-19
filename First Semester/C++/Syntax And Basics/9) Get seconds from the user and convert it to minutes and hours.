@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int m,d,k,s;
+    cout<<"Insert Seconds = ";
+    cin>>m;
+    k=m/3600;
+    m=m%3600;
+    d=m/60;
+    m=m%60;
+    cout<<"Hours = "<<k<<endl;
+    cout<<"Minutes = "<<d<<endl;
+    cout<<"Seconds = "<<m;
+    return 0;
+}
