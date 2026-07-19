@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int n,k,s;
+    cout<<"Insert Number = ";
+    cin>>n;
+while (n>0){
+     k=n%10;
+     s=s+k;
+     n=n/10;
+}
+ cout<<"Sum = "<<s;
+  return 0;
+}
