@@ -1,8 +1,0 @@
-print("Number=",end=" ")
-number=int(input())
-strnumber=str(number)
-sum=0
-print("Sum of Digits =",end=" ")
-for i in range(0,len(strnumber)):
-   sum=sum+int(strnumber[i])
-print(sum)
