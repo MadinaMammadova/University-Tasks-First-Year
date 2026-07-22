@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["&",90,"Hey",True,{" "},90]
+print(mylist)
+count=mylist.count(90)
+print("Count of the element =",count)
