@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=[“Mady”,1,True]
+printmy(list)
+secondtolast=mylist[-2]
+print("Second to last Element =",secondtolast)
