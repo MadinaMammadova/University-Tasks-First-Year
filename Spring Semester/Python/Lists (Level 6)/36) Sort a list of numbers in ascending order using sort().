@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=[789,34,548,2,64,5]
+print(mylist)
+list.sort()
+print("Ascending Order =",mylist)
