@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["Python",True,[34],{"F1"}]
+print(mylist)
+copiedlist=mylist[:]
+print("Copied List =",copiedlist)
