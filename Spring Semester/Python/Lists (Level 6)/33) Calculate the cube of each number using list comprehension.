@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["Yay!",73,[False],78]
+print(mylist)
+cubeofnumbers=[numbers**3 for numbers in mylist if type(numbers)==int]
+print("Cube of Numbers =",cubeofnumbers)
