@@ -1,0 +1,5 @@
+print("List =",end=" ")
+list=["Aye!",54,["-"],{"#",}]
+print(list)
+list.clear()
+print("New List =",list)
