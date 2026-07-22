@@ -1,0 +1,10 @@
+print("First List =",end=" ")
+listone=["Aye!",54,{"*",False}]
+print(listone)
+print("Second List =",end=" ")
+listtwo=["Yay!",23,["Computer"],{True}]
+print(listtwo)
+joinedlist=listone+listtwo
+print("Joined List =",joinedlist)
+listone.extend(listtwo)
+print("Extended List =",listone)
