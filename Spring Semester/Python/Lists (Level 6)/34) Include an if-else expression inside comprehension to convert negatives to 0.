@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["ASOIU",True,-56,78,["Hi"]]
+print(mylist)
+negativetozero=[(0 if (type(numbers)==int and numbers<0)else numbers) for numbers in mylist]
+print("Negative numbers to zeros = ",negativetozero)
