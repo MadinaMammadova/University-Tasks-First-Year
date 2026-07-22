@@ -1,0 +1,6 @@
+print("Tuple =",end=" ")
+mytuple=(89,True,{"Computer"},["CMYK",45])
+print(mytuple)
+print("Tuple's Elements =",end=" ")
+for i in range(len(mytuple)):
+    print(mytuple[i],end=",")
