@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["Aye!",54,["-"],{"#",}]
+print(mylist)
+for index in enumerate(mylist):
+    print("Index and Element =",index)
