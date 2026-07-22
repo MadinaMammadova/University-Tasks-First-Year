@@ -1,0 +1,4 @@
+print("List =",end=" ")
+mylist=["Mady",1,True]
+print(mylist)
+print("Lenght =",len(mylist))
