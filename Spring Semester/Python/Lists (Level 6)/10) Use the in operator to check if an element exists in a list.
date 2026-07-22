@@ -1,0 +1,8 @@
+print("List =",end=" ")
+mylist=["Mady",1,True]
+print(mylist)
+element=input()
+if element in str(mylist):
+ print("Element exists in this list")
+else:
+ print("Element does not exist in this list")
