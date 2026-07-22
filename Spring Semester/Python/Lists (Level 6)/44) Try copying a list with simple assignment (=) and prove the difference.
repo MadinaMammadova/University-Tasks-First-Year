@@ -1,0 +1,5 @@
+mylist=["Python",True,[34],{"F1"}]
+copiedlist=mylist
+copiedlist[0]="C++"
+print("Original List =",mylist)
+print("Copied List   =",copiedlist)
