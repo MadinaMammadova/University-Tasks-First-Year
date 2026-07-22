@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["Peace",21,["Moon"],{"$",},True]
+print(mylist)
+index=mylist.index(True)
+print("Index of the element =",index)
