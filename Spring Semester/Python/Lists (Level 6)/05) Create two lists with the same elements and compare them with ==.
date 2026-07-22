@@ -1,0 +1,10 @@
+print("First List =",end=" ")
+listone=["Mady",1,True]
+print(listone)
+print("Second List =",end=" ")
+listtwo=["Mady",1,True]
+print(listtwo)
+if listone==listtwo:
+     print("Lists are the same")
+else:
+     print("Lists are not the same")
