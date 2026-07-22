@@ -1,0 +1,8 @@
+print("Tuple =",end=" ")
+mytuple=(89,True,{"Computer"},["CMYK",45])
+print(mytuple)
+print("Tuple's Elements =",end=" ")
+index=0
+while index<len(mytuple):
+    print(mytuple[index],end=",")
+    index=index+1
