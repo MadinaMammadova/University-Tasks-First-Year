@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["C++","Python","GO","Swift","Java"]
+print(mylist)
+mylist.sort(reverse=True)
+print("Descending Order =",mylist)
