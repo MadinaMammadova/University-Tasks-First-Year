@@ -1,0 +1,4 @@
+print("List =",end=" ")
+mylist=["C++",True,{"Swift"},5]
+print(mylist)
+print("\n","List printed three times =",mylist*3)
