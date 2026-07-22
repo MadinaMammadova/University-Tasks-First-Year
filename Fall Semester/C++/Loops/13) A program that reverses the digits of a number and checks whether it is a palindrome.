@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int number,last,inverse=0;
+    cout<<"Insert Number = ";
+    cin>>number;
+    int original=number;
+while(number!=0){
+    last=number%10;
+    inverse=inverse*10+last;
+    number=number/10;
+}
+if(inverse==original){
+    cout<<"Number is a palindrome number";
+}
+else{
+    cout<<"Number is not a palindrome number";
+}
+ return 0;
+}
