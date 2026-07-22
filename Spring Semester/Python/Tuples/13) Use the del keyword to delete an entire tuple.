@@ -1,0 +1,5 @@
+print("Tuple =",end=" ")
+mytuple=(89,True,{"Computer"},["CMYK",45])
+print(mytuple)
+del mytuple
+print("Tuple has been deleted from the memory") 
