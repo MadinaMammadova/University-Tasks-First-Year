@@ -1,0 +1,7 @@
+import copy
+mylist = ["Python", True, [34], {"F1"}]
+copiedlist = copy.deepcopy(mylist)
+copiedlist[0] = "C++"
+copiedlist[2][0] = 99
+print("Original List =",mylist)
+print("Copied List =",copiedlist)
