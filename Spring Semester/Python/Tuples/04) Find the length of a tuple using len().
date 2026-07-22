@@ -1,0 +1,4 @@
+print("Tuple =",end=" ")
+mytuple=("Data",True,21,{"Internet"})
+print(mytuple)
+print("Length of Tuple =",len(mytuple))
