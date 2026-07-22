@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int count;
+    cout<<"The count of the numbers that you will insert = ";
+    cin>>count;
+int number;
+int biggest, smallest;
+double sum=0;
+    cout<<"Insert number = ";
+    cin>>number;
+    biggest=number;
+    smallest=number;
+    sum=sum+number;
+for (int element=2;element<=count;element++) {
+    cout<<"Insert number = ";
+    cin>>number;
+if (number>biggest) {
+    biggest=number;
+}
+if (number<smallest) {
+    smallest=number;
+}
+sum=sum+number;
+}
+cout<<endl;
+double average=sum/count;
+cout<<"The biggest number = "<<biggest<<endl;
+cout<<"The smallest number = "<<smallest<<endl;
+cout<<"Average of the numbers = "<<average<<endl;
+  return 0;
+}
