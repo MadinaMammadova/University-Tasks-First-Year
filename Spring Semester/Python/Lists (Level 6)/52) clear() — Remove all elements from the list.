@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["Yay!",23,["Computer"],{99,True}]
+print(mylist)
+mylist.clear()
+print("Cleared List =",mylist)
