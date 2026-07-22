@@ -1,0 +1,7 @@
+print("List =",end=" ")
+mylist=["Python","Hey","Let's go","F1"]
+print(mylist)
+copiedlist=mylist.copy()
+print("Copy of List =",copiedlist)
+mylist.append(7890)
+print("Modified List =",mylist)
