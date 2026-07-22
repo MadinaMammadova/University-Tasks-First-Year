@@ -1,0 +1,5 @@
+print("Tuple =",end=" ")
+mytuple=("System",506,[True],{"Internet",(77,)})
+print(mytuple)
+index=mytuple.index([True])
+print("Index of an element=",index)
