@@ -1,0 +1,11 @@
+print("List =",end=" ")
+mylist=["Mady",1,True,21,["Hi",False]]
+print(mylist)
+print("First Element =",end=" ")
+elementone=input()
+print("Second Element =",end=" ")
+elementtwo=input()
+print("Third Element =",end=" ")
+elementthree=input()
+mylist[0:2]=[elementone,elementtwo,elementthree]
+print("New List =",mylist) 
