@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["Peace",21,["Moon"],{"$",}]
+print(mylist)
+mylist.insert(3,False)
+print("New List =",mylist)
