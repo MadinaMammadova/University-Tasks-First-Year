@@ -8,6 +8,6 @@ if 22<=age<=45:
   if degree.strip().lower()=="computer science" or experience>=5:
     print("You are hired!")
   else:
-    print("Your qualifications doesn't match our requirements.")
+    print("Your qualifications don't match our requirements.")
 else:
   print("Your age doesn't match our requirements.")
