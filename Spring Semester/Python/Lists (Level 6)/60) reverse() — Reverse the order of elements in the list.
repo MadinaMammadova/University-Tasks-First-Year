@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["C++",True,{"Swift"},5]
+print(mylist)
+mylist.reverse()
+print("Reversed List =",mylist)
