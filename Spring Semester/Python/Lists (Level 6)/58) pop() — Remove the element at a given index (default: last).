@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=[98,"OS",{"ROM"},("CyberSecurity"),True]
+print(mylist)
+mylist.pop(2)
+print("New List =",mylist)
